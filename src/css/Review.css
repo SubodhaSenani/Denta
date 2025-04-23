@@ -1,0 +1,99 @@
+.review-carousel {
+    padding: 40px 0;
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+  }
+  
+  .review-carousel .carousel-inner {
+    padding: 20px 0;
+  }
+  
+  .review-carousel .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 350px;
+    border: none;
+  }
+  
+  .review-carousel .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-carousel .card-img-top {
+    transition: transform 0.3s ease;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .review-carousel .card-body {
+    padding: 25px;
+    background: white;
+  }
+  
+  .review-carousel .card-title {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+  }
+  
+  .review-carousel .card-text {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .review-carousel .text-muted {
+    color: #95a5a6 !important;
+    font-size: 0.9rem;
+  }
+  
+  .review-carousel .carousel-control-prev,
+  .review-carousel .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background: #007bff;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+  }
+  
+  .review-carousel .carousel-control-prev {
+    left: 20px;
+  }
+  
+  .review-carousel .carousel-control-next {
+    right: 20px;
+  }
+  
+  .review-carousel .carousel-indicators {
+    bottom: -40px;
+  }
+  
+  .review-carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #007bff;
+    opacity: 0.5;
+    margin: 0 5px;
+  }
+  
+  .review-carousel .carousel-indicators button.active {
+    opacity: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .review-carousel .card {
+      max-width: 300px;
+    }
+    
+    .review-carousel .carousel-control-prev,
+    .review-carousel .carousel-control-next {
+      display: none;
+    }
+  }
